@@ -1,0 +1,17 @@
+{
+  "name": "acf",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "compile": "truffle compile",
+    "migrate": "rm -rf ./build & truffle migrate --reset --network mainnet_fork",
+    "test": "truffle test",
+    "mt": "rm -rf ./build & truffle migrate --reset --network mainnet_fork & truffle test"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^3.3.0",
+    "@openzeppelin/test-helpers": "^0.5.6",
+    "@uniswap/v2-core": "^1.0.1",
+    "@uniswap/v2-periphery": "^1.1.0-beta.0"
+  }
+}

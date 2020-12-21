@@ -1,0 +1,44 @@
+{
+    "admin": "0x1Ec0107cD27FA713798F4AB9d52c536ed47C65c4",
+    "contracts": {
+        "tokens": {
+            "ACF": {
+                "address": "0x21336dD7a4985F65129D5fa8E0d89219f711a0aF",
+                "decimals": 18
+            },
+            "DAI": {
+                "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+                "decimals": 18
+            },
+            "WETH": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "decimals": 18
+            }
+        },
+        "pairs": {
+            "ACF_DAI": "0x5fd04146183A2279117BD881B04C182b53FC202a"
+        },
+        "factory": "0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f",
+        "router": "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D",
+        "pools": {
+            "DAI": {
+                "address": "0xc5EA957dF1d00Aec907D843482026bD2cFD3cDef",
+                "WETH": {
+                    "borrower": "0x8deE9B9BdbE2572704d17EBfE899E5CA444f969f",
+                    "factory": "0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f",
+                    "pair": "0xA478c2975Ab1Ea89e8196811F51A7B7Ade33eB11",
+                    "stakingRewards": "0x3c181AaE98aD5C9672387C911346Fb6b7bD67D0a"
+                }
+            }
+        },
+        "airdropStrategy": "0xe2dd2f4478D6Ab4983f24dFa58599B8f957ca89B",
+        "cellars": {
+            "DAI": {
+                "address": "0xeE0fcc211e8b7796f995403f0CD080C089f99E1c",
+                "stakingToken": "0x5fd04146183A2279117BD881B04C182b53FC202a",
+                "rewardsToken": "0x21336dD7a4985F65129D5fa8E0d89219f711a0aF",
+                "stakingRewards": "0xE0846a5e4628A608408028FC9bC55D947Fb236A2"
+            }
+        }
+    }
+}
